@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.bg{
+    background-image: linear-gradient(to right, #D4145A, #FBB03B);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bg{
+    background-color: #e8e680;
+    width: 80%;
+    height: 70%;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.add-btn-cont{
+    width: 16%;
+    height: 100%;
+    background-color: #FBB03B;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-btn{
+    width: 120px;
+    height: 120px;
+    background-color: #D4145A;
+    color: white;
+    border: none;
+    font-size: 25px;
+    border-radius: 59px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    width: 128px;
+    height: 128px;
+    border-radius:64px ;
+    font-size: 27px;
+}
+
+.box-cont-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.box-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    height: 90%;
+    margin-left: 20px;
+
+   /*border: 5px solid white;*/
+}
+
+.box{ 
+    height: 441px;
+    width: 30%;
+    background-color: antiquewhite;
+    margin: auto;
+    overflow: auto;
+    border: 1px solid #D0D0D0;
+}
+
+.box-h-bg{
+    background-color: aqua;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#modal{
+    background-color: rgb(0,0,0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.modal-body{
+    background-image: linear-gradient(to right, #00b09b, #96c93d);
+    width: 60%;
+    height: 75%;
+    margin: auto;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+    border: 1px solid gray;
+    padding-bottom: 50px;
+}
+
+.close-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.wrong{
+    color: red;
+    cursor: pointer;
+}
+
+p{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.p-cont{
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form{
+    width: 100%;
+}
+
+form div{
+    width: 100%;
+  
+}
+
+input{
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.form-btn-cont{
+    text-align: center;
+}
+
+textarea{
+    width: 80%;
+    padding: 5px;
+    padding-left: 5px;
+}
+
+textarea,input:focus{
+    outline: none;
+    border: 2px solid skyblue;
+}
+
+.form-btn{
+    background-color: #03dbfc;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid blue;
+}
+
+.inside-card{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 8px;
+    border: 1px solid gray;
+    padding: 8px
+}
+
+.name-status-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.name-letter-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.letter-bg{
+    background-color: #D4145A;
+    color: white;
+    border-radius: 50px;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+}
+
+.inside-para{
+    font-size: 15px;
+    font-weight: 300;
+}
